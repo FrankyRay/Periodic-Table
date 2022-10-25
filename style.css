@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+
+button.dark-mode {
+  background-color: papayawhip;
+  padding: .4rem 1.25rem;
+  border: none;
+  border-radius: 50px;
+}
+
+.periodic-table {
+  border-spacing: 5px;
+}
+
+.atom-container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.gas {
+  outline: 2px solid #51087E;
+  background: #E4C1F9;
+}
+
+.solid {
+  outline: 2px solid #1E4D3D;
+  background: #D0F4DE;
+}
+
+.liquid {
+  outline: 2px solid #033736;
+  background: #A9DEF9;
+}
+
+.atom-number {
+  font-size: 0.85rem;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.atom-weight {
+  font-size: 0.85rem;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.atom-symbol {
+  font-size: 1.75rem;
+  position: absolute;
+  bottom: calc(1rem + 3px);
+  left: 3px;
+}
+
+.atom-name {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+}
